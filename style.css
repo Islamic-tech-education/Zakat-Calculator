@@ -1,0 +1,41 @@
+body{
+    background-color: #191919;
+    font: 1.5em/1.2 sans-serif, Arial;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #757575;
+    border: 5px solid #111;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+#money{
+    margin: 8px 0;
+    padding: 10px;
+    width: 80%;
+    font-size: 1em;
+    outline: 0;
+    border: 3px solid #111;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#percentage{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    font-size: 1.4em;
+    padding: 8px;
+    border-radius: 10px;
+}
